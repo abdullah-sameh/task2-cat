@@ -6,8 +6,8 @@ function addFrom(a, b) {
         b = tmp
     }
     let sum = 0
-    for (let i = a; i <= b; i++) {
-        sum += i
+    for (; a <= b; a++) {
+        sum += a
     }
     return sum
 }
